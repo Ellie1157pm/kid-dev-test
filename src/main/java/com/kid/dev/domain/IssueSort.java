@@ -6,8 +6,30 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 문제 2
- * 작업 목록 정렬
+ * 문제 2.
+ * 개발실에 근무하는 홍길동은 다음의 순서대로 버그 수정을 의뢰받았다.
+ *
+ * # 작업 리스트
+ * 우선순위 / 소요시간 / 작업내용
+ * 낮음, 1, A.로그인 화면 오타 수정
+ * 긴급, 3, B.OTP 사용자 로그인 안됨
+ * 보통, 1, C.권한 안내 문구 수정
+ * 낮음, 2, D.로딩중 표시 아이콘 변경
+ * 긴급, 3, E.메일의 본문이 표시되지 않는 문제
+ * 보통, 1, F.첨부파일 사이즈 표시 오류 수정
+ * 긴급, 2, G.메일 전송시 첨부파일 누락됨
+ * 보통, 3, H.1:1 문의 기능 구현
+ * 낮음, 1, I.제품 로고 변경
+ * 보통, 3, J.안읽음 카운트 오류 문제
+ * 낮음, 1, K.폰트 색상 변경
+ * 긴급, 2, L.전체 메일함 동기화 안되는 문제
+ *
+ * 홍길동이 처리해야할 작업내용의 순서를 나열하시오
+ * 조건:
+ * - "긴급", "보통", "낮음" 의 우선 순위를 가진다.
+ * - 동일한 우선 순위 작업의 경우, 소요시간이 작은 것을 우선으로 한다.
+ * - 동일한 소요시간의 작업인 경우, 먼저 들어온 작업을 우선한다.
+ * (개발 언어 선택은 자유 C,C++,PHP,python,Javascript,JAVA 등)
  */
 public class IssueSort {
     /**
@@ -88,32 +110,6 @@ public class IssueSort {
                 }
             }
         }
-
-//        for(int i = 0 ; i < sortedIssueList.size()-1 ; i++) {
-//            for(int j = i+1 ; j < sortedIssueList.size() ; j++) {
-//                if(sortedIssueList.get(i).getPriority() != sortedIssueList.get(j).getPriority()) continue;
-//
-//                if(sortedIssueList.get(i).getDuration() > sortedIssueList.get(j).getDuration()) {
-//                    issue = sortedIssueList.get(i);
-//                    sortedIssueList.set(i, sortedIssueList.get(j));
-//                    sortedIssueList.set(j, issue);
-//                }
-//            }
-//        }
-//
-//        // 3.동일한 소요시간의 작업인 경우, 먼저 들어온 작업을 우선한다.
-//        for(int i = 0 ; i < sortedIssueList.size()-1 ; i++) {
-//            for(int j = i+1 ; j < sortedIssueList.size() ; j++) {
-//                if(sortedIssueList.get(i).getPriority() != sortedIssueList.get(j).getPriority()) continue;
-//                if(sortedIssueList.get(i).getDuration() != sortedIssueList.get(j).getDuration()) continue;
-//
-//                if(sortedIssueList.get(i).getIssue().compareTo(sortedIssueList.get(j).getIssue()) > 0) {
-//                    issue = sortedIssueList.get(i);
-//                    sortedIssueList.set(i, sortedIssueList.get(j));
-//                    sortedIssueList.set(j, issue);
-//                }
-//            }
-//        }
 
         return sortedIssueList;
     }
