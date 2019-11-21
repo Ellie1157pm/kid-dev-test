@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kid Dev Test</title>
+</head>
+<body>
+<div class="header-container">
+    <div class="title-container">
+        <h2>문제 2</h2>
+    </div>
+</div>
+<div class="section-container">
+    <p>
+        개발실에 근무하는 홍길동은 다음의 순서대로 버그 수정을 의뢰받았다. <br><br>
+
+        # 작업 리스트<br><br>
+
+        우선순위 / 소요시간 / 작업내용<br><br><br><br>
+
+        <h2>초기값</h2>
+        <div th:with="pName=${issueSort.priorityName}">
+            <p th:each="i : ${issueSort.issueList}" th:text="|${pName.get(i.priority)}, ${i.duration}, ${i.issue}|"></p>
+        </div>
+
+        <hr>
+
+        <h2>결과</h2>
+        <div th:with="pName=${issueSort.priorityName}">
+            <p th:each="i : ${sortedIssueList}" th:text="|${pName.get(i.priority)}, ${i.duration}, ${i.issue}|"></p>
+        </div>
+
+        <br><br>홍길동이 처리해야할 작업내용의 순서를 나열하시오<br><br>
+
+        조건:<br><br>
+        - "긴급", "보통", "낮음" 의 우선 순위를 가진다.<br><br>
+
+        - 동일한 우선 순위 작업의 경우, 소요시간이 작은 것을 우선으로 한다.<br><br>
+
+        - 동일한 소요시간의 작업인 경우, 먼저 들어온 작업을 우선한다.<br><br>
+
+        (개발 언어 선택은 자유 C,C++,PHP,python,Javascript,JAVA 등)<br><br>
+    </p>
+</div>
+<div class="footer-container"></div>
+</body>
+</html>
