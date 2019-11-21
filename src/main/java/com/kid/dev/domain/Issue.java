@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 문제 2
- * 작업
+ * 문제 2<br>
+ * 작업 객체
  */
 public class Issue {
 

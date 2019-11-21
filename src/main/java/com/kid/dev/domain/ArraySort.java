@@ -3,12 +3,12 @@ package com.kid.dev.domain;
 import java.util.Arrays;
 
 /**
- * 문제 1.
- * 1부터 16까지 2차원 배열이 있습니다.
- * 해당 배열을 밖에 배열은 반시계방향으로 한칸씩 이동시키고 안쪽 배열은 시계 반향으로 이동하여 출력하시오.
- * - 개발 언어 선택은 자유 C,C++,PHP,python,Javascript,JAVA 등
- * - 출력형식은 해당 언어별로 자유롭게 출력
- * - 2차원 배열은 초기값으로 설정
+ * 문제 1.<br>
+ * 1부터 16까지 2차원 배열이 있습니다.<br>
+ * 해당 배열을 밖에 배열은 반시계방향으로 한칸씩 이동시키고 안쪽 배열은 시계 반향으로 이동하여 출력하시오.<br>
+ * - 개발 언어 선택은 자유 C,C++,PHP,python,Javascript,JAVA 등<br>
+ * - 출력형식은 해당 언어별로 자유롭게 출력<br>
+ * - 2차원 배열은 초기값으로 설정<br>
  */
 public class ArraySort {
 
@@ -36,6 +36,10 @@ public class ArraySort {
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>> No.1 Array Setting End >>>>>>>>>>>>>>>>>>>>>>>>>>>");
     }
 
+    /**
+     * 2차원 배열을 바깥쪽은 반시계 방향, 안쪽은 시계방향으로 한 칸씩 움직여서 출력한다.
+     * @return 정렬된 2차원 정수 배열
+     */
     public int[][] sort() {
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>> No.1 Array Sort Start >>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
