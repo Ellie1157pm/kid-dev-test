@@ -1,0 +1,196 @@
+2019-11-21 10:40:57.236  INFO 3204 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Starting KidDevTemplateApplication on THESHOON-KID with PID 3204 (E:\workspace\kid-dev-template\build\classes\java\main started by user in E:\workspace\kid-dev-template)
+2019-11-21 10:40:57.246  INFO 3204 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : No active profile set, falling back to default profiles: default
+2019-11-21 10:40:57.281  INFO 3204 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 10:40:57.281  INFO 3204 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 10:40:57.751  WARN 3204 --- [  restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kid.dev]' package. Please check your configuration.
+2019-11-21 10:40:57.948  INFO 3204 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-11-21 10:40:57.955  INFO 3204 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-11-21 10:40:57.958  INFO 3204 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-11-21 10:40:58.034  INFO 3204 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 10:40:58.056  INFO 3204 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 10:40:58.064  INFO 3204 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 10:40:58.065  INFO 3204 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 10:40:58.422  INFO 3204 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1157 (http)
+2019-11-21 10:40:58.430  INFO 3204 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 10:40:58.430  INFO 3204 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-21 10:40:58.432  INFO 3204 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-11-21 10:40:58.432  INFO 3204 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-11-21 10:40:58.432  INFO 3204 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-21 10:40:58.433  INFO 3204 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-21 10:40:59.473  INFO 3204 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-11-21 10:40:59.579  INFO 3204 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 10:40:59.580 DEBUG 3204 --- [  restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-21 10:40:59.580  INFO 3204 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2297 ms
+2019-11-21 10:40:59.728  INFO 3204 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 10:40:59.737 DEBUG 3204 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-21 10:40:59.769 DEBUG 3204 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-21 10:40:59.774  INFO 3204 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 10:40:59.792 DEBUG 3204 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-21 10:40:59.799 DEBUG 3204 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-21 10:41:00.001  INFO 3204 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8d2c083b-066f-4dc3-b386-1bb536b9807e
+
+2019-11-21 10:41:00.065  INFO 3204 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@600a9aa9, org.springframework.security.web.context.SecurityContextPersistenceFilter@161337e2, org.springframework.security.web.header.HeaderWriterFilter@604a356, org.springframework.security.web.csrf.CsrfFilter@41564d71, org.springframework.security.web.authentication.logout.LogoutFilter@268e438c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1347d1ab, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@159c10da, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@609693a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@21b82e9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@caf3f1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c42fe34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60f4b6a3, org.springframework.security.web.session.SessionManagementFilter@3f7c9515, org.springframework.security.web.access.ExceptionTranslationFilter@4a3f7376, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6047c7d2]
+2019-11-21 10:41:00.098  WARN 3204 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-11-21 10:41:00.198  INFO 3204 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-11-21 10:41:00.233  INFO 3204 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-21 10:41:00.233  INFO 3204 --- [  restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2019-11-21 10:41:00.234  INFO 3204 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2019-11-21 10:41:00.250  INFO 3204 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-21 10:41:00.256  INFO 3204 --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-21 10:41:00.260 ERROR 3204 --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1157 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1157 or configure this application to listen on another port.
+
+2019-11-21 10:41:00.262  INFO 3204 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-21 10:41:00.262  INFO 3204 --- [  restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 0 subscriber(s).
+2019-11-21 10:41:00.263  INFO 3204 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2019-11-21 10:41:00.263  INFO 3204 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-11-21 10:41:00.265  INFO 3204 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 11:09:19.641  INFO 18920 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Starting KidDevTemplateApplication on THESHOON-KID with PID 18920 (E:\workspace\kid-dev-template\build\classes\java\main started by user in E:\workspace\kid-dev-template)
+2019-11-21 11:09:19.643  INFO 18920 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : No active profile set, falling back to default profiles: default
+2019-11-21 11:09:19.673  INFO 18920 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 11:09:19.673  INFO 18920 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 11:09:20.128  WARN 18920 --- [  restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kid.dev]' package. Please check your configuration.
+2019-11-21 11:09:20.329  INFO 18920 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-11-21 11:09:20.335  INFO 18920 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-11-21 11:09:20.338  INFO 18920 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-11-21 11:09:20.412  INFO 18920 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:09:20.431  INFO 18920 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:09:20.438  INFO 18920 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:09:20.439  INFO 18920 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:09:20.801  INFO 18920 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1157 (http)
+2019-11-21 11:09:20.809  INFO 18920 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 11:09:20.810  INFO 18920 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-21 11:09:20.812  INFO 18920 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-11-21 11:09:20.812  INFO 18920 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-11-21 11:09:20.813  INFO 18920 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-21 11:09:20.813  INFO 18920 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-21 11:09:21.871  INFO 18920 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-11-21 11:09:22.013  INFO 18920 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 11:09:22.013 DEBUG 18920 --- [  restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-21 11:09:22.014  INFO 18920 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2341 ms
+2019-11-21 11:09:22.169  INFO 18920 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 11:09:22.178 DEBUG 18920 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-21 11:09:22.212 DEBUG 18920 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-21 11:09:22.218  INFO 18920 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 11:09:22.238 DEBUG 18920 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-21 11:09:22.247 DEBUG 18920 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-21 11:09:22.466  INFO 18920 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5a9d8fe6-cc41-4378-b575-1c0c1f581e48
+
+2019-11-21 11:09:22.544  INFO 18920 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11d5c6cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@26158e64, org.springframework.security.web.header.HeaderWriterFilter@267fd85f, org.springframework.security.web.csrf.CsrfFilter@78bef7c8, org.springframework.security.web.authentication.logout.LogoutFilter@52dd3296, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30778005, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4adc27d2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5236e8f0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d9024ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c499a6e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74122e0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1be58ecc, org.springframework.security.web.session.SessionManagementFilter@f528ed8, org.springframework.security.web.access.ExceptionTranslationFilter@4a0261a3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@159c10da]
+2019-11-21 11:09:22.587  INFO 18920 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 11:09:22.714  INFO 18920 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-11-21 11:09:22.753  INFO 18920 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-21 11:09:22.753  INFO 18920 --- [  restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2019-11-21 11:09:22.753  INFO 18920 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2019-11-21 11:09:22.774  INFO 18920 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1157 (http) with context path ''
+2019-11-21 11:09:22.777  INFO 18920 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Started KidDevTemplateApplication in 3.383 seconds (JVM running for 3.986)
+2019-11-21 11:10:55.924  INFO 18920 --- [nio-1157-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 11:10:55.925  INFO 18920 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 11:10:55.925 DEBUG 18920 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-11-21 11:10:55.930 DEBUG 18920 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-11-21 11:10:55.930  INFO 18920 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-11-21 11:18:13.716  INFO 21864 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Starting KidDevTemplateApplication on THESHOON-KID with PID 21864 (E:\workspace\kid-dev-template\build\classes\java\main started by user in E:\workspace\kid-dev-template)
+2019-11-21 11:18:13.718  INFO 21864 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : No active profile set, falling back to default profiles: default
+2019-11-21 11:18:13.748  INFO 21864 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 11:18:13.749  INFO 21864 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 11:18:14.153  WARN 21864 --- [  restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kid.dev]' package. Please check your configuration.
+2019-11-21 11:18:14.318  INFO 21864 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-11-21 11:18:14.324  INFO 21864 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-11-21 11:18:14.326  INFO 21864 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-11-21 11:18:14.383  INFO 21864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:18:14.403  INFO 21864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:18:14.409  INFO 21864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:18:14.411  INFO 21864 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:18:14.750  INFO 21864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1157 (http)
+2019-11-21 11:18:14.763  INFO 21864 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 11:18:14.764  INFO 21864 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-21 11:18:14.766  INFO 21864 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-11-21 11:18:14.767  INFO 21864 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-11-21 11:18:14.767  INFO 21864 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-21 11:18:14.767  INFO 21864 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-21 11:18:15.822  INFO 21864 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-11-21 11:18:15.927  INFO 21864 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 11:18:15.927 DEBUG 21864 --- [  restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-21 11:18:15.928  INFO 21864 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2179 ms
+2019-11-21 11:18:16.061  INFO 21864 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 11:18:16.070 DEBUG 21864 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-21 11:18:16.101 DEBUG 21864 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-21 11:18:16.106  INFO 21864 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 11:18:16.122 DEBUG 21864 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-21 11:18:16.129 DEBUG 21864 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-21 11:18:16.300  INFO 21864 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 11:18:16.356  INFO 21864 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-11-21 11:18:16.402  INFO 21864 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-21 11:18:16.403  INFO 21864 --- [  restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2019-11-21 11:18:16.403  INFO 21864 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2019-11-21 11:18:16.425  INFO 21864 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1157 (http) with context path ''
+2019-11-21 11:18:16.427  INFO 21864 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Started KidDevTemplateApplication in 2.955 seconds (JVM running for 3.559)
+2019-11-21 11:18:22.345  INFO 21864 --- [nio-1157-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 11:18:22.346  INFO 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 11:18:22.346 DEBUG 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-11-21 11:18:22.350 DEBUG 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-11-21 11:18:22.351  INFO 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-11-21 11:18:22.358 DEBUG 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2019-11-21 11:18:22.362 DEBUG 21864 --- [nio-1157-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-11-21 11:18:22.365 DEBUG 21864 --- [nio-1157-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-11-21 11:18:22.365 DEBUG 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-11-21 11:18:22.369 DEBUG 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-11-21 11:18:22.371 DEBUG 21864 --- [nio-1157-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2019-11-21 11:18:22.384 DEBUG 21864 --- [nio-1157-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-11-21 11:18:22.388 DEBUG 21864 --- [nio-1157-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-11-21 11:18:26.124 DEBUG 21864 --- [nio-1157-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-11-21 11:18:26.132 DEBUG 21864 --- [nio-1157-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-11-21 11:18:26.256 DEBUG 21864 --- [nio-1157-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-11-21 11:21:15.120  INFO 21104 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Starting KidDevTemplateApplication on THESHOON-KID with PID 21104 (E:\workspace\kid-dev-template\build\classes\java\main started by user in E:\workspace\kid-dev-template)
+2019-11-21 11:21:15.123  INFO 21104 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : No active profile set, falling back to default profiles: default
+2019-11-21 11:21:15.166  INFO 21104 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 11:21:15.167  INFO 21104 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 11:21:15.599  WARN 21104 --- [  restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kid.dev]' package. Please check your configuration.
+2019-11-21 11:21:15.767  INFO 21104 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-11-21 11:21:15.774  INFO 21104 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-11-21 11:21:15.777  INFO 21104 --- [  restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-11-21 11:21:15.837  INFO 21104 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:21:15.857  INFO 21104 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:21:15.864  INFO 21104 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:21:15.865  INFO 21104 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-21 11:21:16.230  INFO 21104 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1157 (http)
+2019-11-21 11:21:16.239  INFO 21104 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 11:21:16.239  INFO 21104 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-21 11:21:16.241  INFO 21104 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-11-21 11:21:16.242  INFO 21104 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-11-21 11:21:16.242  INFO 21104 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-21 11:21:16.242  INFO 21104 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-21 11:21:17.282  INFO 21104 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-11-21 11:21:17.382  INFO 21104 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 11:21:17.382 DEBUG 21104 --- [  restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-21 11:21:17.383  INFO 21104 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2216 ms
+2019-11-21 11:21:17.523  INFO 21104 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 11:21:17.531 DEBUG 21104 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-21 11:21:17.563 DEBUG 21104 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-21 11:21:17.568  INFO 21104 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 11:21:17.585 DEBUG 21104 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-21 11:21:17.592 DEBUG 21104 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-21 11:21:17.766  INFO 21104 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 11:21:17.822  INFO 21104 --- [  restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-11-21 11:21:17.866  INFO 21104 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-11-21 11:21:17.867  INFO 21104 --- [  restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2019-11-21 11:21:17.867  INFO 21104 --- [  restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2019-11-21 11:21:17.889  INFO 21104 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1157 (http) with context path ''
+2019-11-21 11:21:17.892  INFO 21104 --- [  restartedMain] com.kid.dev.KidDevTemplateApplication    : Started KidDevTemplateApplication in 3.058 seconds (JVM running for 3.666)
